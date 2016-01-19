@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid grey;*/
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Questrial';
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*##############################################""*/
+
+header {
+  background-color: #2056ac;
+  height: 19em;
+  color: white;
+}
+
+header .fa {
+  font-size: 3.3em;
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+header h1 {
+  font-size: 56px;
+  text-align: center;
+  margin-top: 0.4em;
+  font-weight: bold;
+}
+
+/*#####NAV###########################################""*/
+
+.nav {
+  background-color: #2056ac;
+  height: 5em;
+}
+
+nav {
+  width: 50em;
+  height: 5em;
+  margin: auto;
+  text-align: center;
+}
+
+nav ul {
+  /*height: 5em;*/
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 5em;
+  padding-top: 1.8em;
+  border-radius: 5px 5px 0px 0px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: white;
+}
+
+nav li:hover a {
+  color: #2056ac;
+}
+
+/*#####SECTION PHOTO##############################################*/
+
+#photo {
+  border-bottom: 1px solid #6F6F6F;
+}
+
+#photo img {
+  width: 1200px;
+  margin: auto;
+  margin-top: 5em;
+}
+
+#photo h2 {
+  margin-top: 2em;
+  font-size: 45px;
+  font-weight: bold;
+  color: #404040;
+  text-align: center;
+}
+
+#photo p {
+  font-size: 16px;
+  color: #6F6F6F;
+  padding-left: 5em;
+  padding-right: 5em;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 4.5em;
+}
